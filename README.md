@@ -61,12 +61,16 @@ These installation instructions are specifically for an M1 Mac using conda for f
     ```sh
     mkdir model_defs
     ```
-9) Move relevamt model files to model_defs folder.
+9) Move relevant model files to model_defs folder.
 
-    The model_defs folder will contain: 
+   The model_defs folder will contain: 
+   
     a) model training file (model-file, .py file)
+    
     b) the weights (serialized-file, .pth file)
+    
     c) the mapping of indexes to classes(extra-files, .json)
+    
     d) the handler file (runs inference pipeline including pre-processing tranformation steps, .py). 
 
     Example command for pulling pretrained weights from pytorch
