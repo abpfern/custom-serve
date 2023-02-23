@@ -39,3 +39,6 @@ instances.yaml.backup
 ## Models
 *.pt
 *.onnx
+
+# serve github
+serve/.github
